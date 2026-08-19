@@ -24,19 +24,8 @@ The project accompanies my 2026 IEEE Access paper and includes the browser exten
 
 ## Research
 
-I'm particularly interested in:
+**AI security · LLM security · prompt injection · browser security · adversarial ML · secure systems · local AI**
 
-**AI security · LLM security · prompt injection · browser security · adversarial machine learning · secure systems · local AI**
+## Elsewhere
 
-### Publication
-
-**BSM: A Browser-Resident Framework for Real-Time Detection of JavaScript API Abuse and Prompt Injection Attacks**
-
-Sunil Kumar Vadlamani, Ajit Balaga, Sridhar Pavithrapu  
-*IEEE Access, 2026*
-
-[DOI: 10.1109/ACCESS.2026.3712744](https://doi.org/10.1109/ACCESS.2026.3712744)
-
-## Find me
-
-[ORCID](https://orcid.org/0009-0002-2993-7748)
+[IEEE Access paper](https://doi.org/10.1109/ACCESS.2026.3712744) · [ORCID](https://orcid.org/0009-0002-2993-7748)
