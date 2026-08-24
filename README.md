@@ -1,31 +1,118 @@
-# Hi, I'm Sunil.
+<p align="center">
+  <img src="./assets/research-terminal.svg" alt="Sunil research terminal" width="100%" />
+</p>
 
-I'm a software engineer and independent researcher interested in **AI security, secure systems, and local AI**.
+<p align="center">
+  <a href="https://github.com/sunilteja93/llmrig"><b>LLMRig</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/BSM-Labs/browser-security-monitoring"><b>Browser Security Monitoring</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://doi.org/10.1109/ACCESS.2026.3712744"><b>IEEE Access</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://orcid.org/0009-0002-2993-7748"><b>ORCID</b></a>
+</p>
 
-I like working on systems where the interesting problems start after the happy path: unexpected inputs, adversarial behavior, hardware constraints, and assumptions that stop holding once software meets the real world.
+```text
+sunil@research-lab:~$ whoami
 
-Recently, I've been spending most of my time on browser security, prompt injection, and making local LLMs easier to run and evaluate.
+software engineer + independent researcher
+working where LLMs, security, systems, and real-world constraints collide.
+```
 
-## What I'm working on
+## `$ cat ./research_focus`
 
-### [LLMRig](https://github.com/sunilteja93/llmrig)
+```text
+LLM SYSTEMS        ██████████  local inference · evaluation · tooling
+AI SECURITY        ██████████  prompt injection · adversarial behavior
+BROWSER SECURITY   ████████░░  JavaScript API abuse · runtime monitoring
+SECURE SYSTEMS     ████████░░  assumptions · failure modes · real-world edges
+```
 
-A cross-platform tool that looks at the hardware you actually have, recommends a practical local LLM setup, helps configure it through Ollama, and benchmarks the result on your machine.
+## `$ ls -la ~/featured`
 
-I built it because choosing a local model usually starts with too much guesswork.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### [Browser Security Monitoring](https://github.com/BSM-Labs/browser-security-monitoring)
+### [`LLMRig`](https://github.com/sunilteja93/llmrig)
 
-A browser-resident framework for detecting JavaScript API abuse and prompt injection attacks in real time.
+Cross-platform local LLM setup and benchmarking.
 
-The project accompanies my 2026 IEEE Access paper and includes the browser extension and evaluation code used in the research.
+It inspects the hardware you actually have, recommends a practical local model setup, helps configure it through Ollama, and benchmarks the result on your machine.
 
-[Paper](https://doi.org/10.1109/ACCESS.2026.3712744) · [Source](https://github.com/BSM-Labs/browser-security-monitoring)
+```text
+mode: build
+focus: local-ai / inference / benchmarking
+```
 
-## Research
+</td>
+<td width="50%" valign="top">
 
-**AI security · LLM security · prompt injection · browser security · adversarial ML · secure systems · local AI**
+### [`Browser Security Monitoring`](https://github.com/BSM-Labs/browser-security-monitoring)
 
-## Elsewhere
+Browser-resident detection for JavaScript API abuse and prompt injection attacks.
 
-[IEEE Access paper](https://doi.org/10.1109/ACCESS.2026.3712744) · [ORCID](https://orcid.org/0009-0002-2993-7748)
+The repository accompanies the 2026 IEEE Access paper and includes the browser extension and evaluation code used in the research.
+
+```text
+mode: research
+focus: browser-security / ai-security
+```
+
+</td>
+</tr>
+</table>
+
+## `$ git log --research --oneline`
+
+**2026** · **BSM: A Browser-Resident Framework for Real-Time Detection of JavaScript API Abuse and Prompt Injection Attacks**  
+IEEE Access · [Paper](https://doi.org/10.1109/ACCESS.2026.3712744) · [Source](https://github.com/BSM-Labs/browser-security-monitoring)
+
+## `$ tail -f ./current.log`
+
+```text
+[BUILD]  local LLM evaluation and testing workflows
+[TEST]   adversarial inputs and prompt-injection defenses
+[TRACE]  agentic systems and model behavior
+[SHIP]   reproducible research + open-source tooling
+```
+
+## `$ git activity`
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=sunilteja93&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"
+    height="165"
+    alt="GitHub stats"
+  />
+  <img
+    src="https://streak-stats.demolab.com?user=sunilteja93&theme=github-dark-blue&hide_border=true"
+    height="165"
+    alt="GitHub streak"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=sunilteja93&bg_color=0d1117&color=58a6ff&line=3fb950&point=f0883e&area=true&hide_border=true"
+    width="100%"
+    alt="GitHub activity graph"
+  />
+</p>
+
+## `$ ./connect`
+
+<p align="center">
+  <a href="https://orcid.org/0009-0002-2993-7748">ORCID</a>
+  &nbsp;•&nbsp;
+  <a href="https://doi.org/10.1109/ACCESS.2026.3712744">IEEE Access</a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/BSM-Labs/browser-security-monitoring">BSM Labs</a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/sunilteja93/llmrig">LLMRig</a>
+</p>
+
+```text
+sunil@research-lab:~$ ./motd
+Build things. Break assumptions. Measure everything.
+```

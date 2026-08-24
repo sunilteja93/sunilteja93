@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Sunil research terminal</title>
+<desc id="desc">A dark terminal-style research dashboard with an abstract scanline portrait and AI security research focus.</desc>
+
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d1117"/>
+    <stop offset="1" stop-color="#111827"/>
+  </linearGradient>
+
+  <linearGradient id="scanGlow" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#58a6ff"/>
+    <stop offset=".55" stop-color="#7ee787"/>
+    <stop offset="1" stop-color="#58a6ff"/>
+  </linearGradient>
+
+  <pattern id="scanlines" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="2" fill="#58a6ff" opacity=".11"/>
+  </pattern>
+
+  <pattern id="matrix" width="28" height="28" patternUnits="userSpaceOnUse">
+    <text x="2" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#3fb950" opacity=".17">01</text>
+  </pattern>
+
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <clipPath id="portraitClip">
+    <rect x="56" y="102" width="330" height="250" rx="18"/>
+  </clipPath>
+</defs>
+
+<!-- shell -->
+<rect width="1200" height="430" rx="22" fill="#010409"/>
+<rect x="18" y="18" width="1164" height="394" rx="18" fill="url(#panel)" stroke="#30363d" stroke-width="2"/>
+
+<!-- terminal titlebar -->
+<circle cx="48" cy="49" r="7" fill="#ff7b72"/>
+<circle cx="72" cy="49" r="7" fill="#e3b341"/>
+<circle cx="96" cy="49" r="7" fill="#3fb950"/>
+<text x="126" y="56" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
+  sunil@research-lab:~$ ./boot
+</text>
+
+<!-- left scanner -->
+<rect x="56" y="102" width="330" height="250" rx="18" fill="#060b12" stroke="#30363d"/>
+<rect x="56" y="102" width="330" height="250" fill="url(#matrix)" clip-path="url(#portraitClip)"/>
+
+<!-- abstract matrix bust, intentionally not a likeness yet -->
+<g clip-path="url(#portraitClip)" opacity=".96">
+  <ellipse cx="221" cy="192" rx="62" ry="76" fill="none" stroke="url(#scanGlow)" stroke-width="5" filter="url(#glow)"/>
+  <path d="M174 174 C188 139, 248 132, 270 174" fill="none" stroke="#58a6ff" stroke-width="4" opacity=".8"/>
+  <path d="M190 198 L207 194 M237 194 L254 198" stroke="#7ee787" stroke-width="4" stroke-linecap="round"/>
+  <path d="M218 204 L215 226 L226 226" fill="none" stroke="#58a6ff" stroke-width="3" opacity=".85"/>
+  <path d="M199 245 C216 254, 235 254, 250 244" fill="none" stroke="#7ee787" stroke-width="3"/>
+  <path d="M131 357 C141 294, 167 274, 221 270 C276 274, 301 295, 311 357" fill="none" stroke="url(#scanGlow)" stroke-width="6"/>
+  <rect x="56" y="102" width="330" height="250" fill="url(#scanlines)"/>
+</g>
+
+<text x="76" y="130" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">VISUAL_ID // MATRIX_RENDER</text>
+<text x="76" y="337" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">portrait slot ready for custom likeness</text>
+
+<!-- right content -->
+<text x="435" y="120" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" font-size="35">
+  SUNIL KUMAR VADLAMANI
+</text>
+
+<text x="435" y="158" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">
+  software engineer + independent researcher
+</text>
+
+<line x1="435" y1="182" x2="1120" y2="182" stroke="#30363d"/>
+
+<text x="435" y="219" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">STATUS</text>
+<text x="545" y="219" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">BUILDING // TESTING // PUBLISHING</text>
+
+<text x="435" y="256" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">FOCUS</text>
+<text x="545" y="256" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">LLM SYSTEMS</text>
+<text x="545" y="284" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">AI + BROWSER SECURITY</text>
+<text x="545" y="312" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">ADVERSARIAL BEHAVIOR</text>
+
+<text x="435" y="361" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">
+  Build things. Break assumptions. Measure everything.
+</text>
+
+<!-- status dot -->
+<circle cx="1107" cy="52" r="6" fill="#3fb950" filter="url(#glow)"/>
+<text x="1025" y="57" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">NODE ONLINE</text>
+</svg>
