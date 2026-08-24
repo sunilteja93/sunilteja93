@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Sunil Research Control Plane</title>
+<desc id="desc">A dark engineering console showing an LLM and AI security research pipeline from prompt to evaluation.</desc>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#010409"/>
+    <stop offset="1" stop-color="#0d1117"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#58a6ff"/>
+    <stop offset=".5" stop-color="#7ee787"/>
+    <stop offset="1" stop-color="#a371f7"/>
+  </linearGradient>
+  <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#21262d" stroke-width="1" opacity=".36"/>
+  </pattern>
+</defs>
+
+<!-- frame -->
+<rect width="1200" height="390" rx="22" fill="url(#bg)"/>
+<rect x="18" y="18" width="1164" height="354" rx="18" fill="url(#grid)" stroke="#30363d" stroke-width="2"/>
+
+<!-- title bar -->
+<circle cx="48" cy="49" r="7" fill="#ff7b72"/>
+<circle cx="72" cy="49" r="7" fill="#e3b341"/>
+<circle cx="96" cy="49" r="7" fill="#3fb950"/>
+
+<text x="128" y="56" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18">
+  sunil@research-lab:~$ ./control-plane --observe
+</text>
+
+<circle cx="1093" cy="49" r="5" fill="#3fb950" filter="url(#softGlow)"/>
+<text x="1110" y="54" fill="#7ee787" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12">ONLINE</text>
+
+<!-- identity -->
+<text x="58" y="112" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-weight="700" font-size="30">
+  SUNIL KUMAR VADLAMANI
+</text>
+<text x="58" y="143" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17">
+  Senior Software Engineer  //  Independent AI &amp; Security Researcher
+</text>
+
+<!-- pipeline label -->
+<text x="58" y="194" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">
+  RESEARCH PIPELINE
+</text>
+
+<!-- connecting rail -->
+<line x1="119" y1="238" x2="885" y2="238" stroke="url(#edge)" stroke-width="3" opacity=".75"/>
+
+<!-- nodes -->
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <g>
+    <rect x="58" y="214" width="122" height="48" rx="9" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+    <circle cx="78" cy="238" r="5" fill="#58a6ff"/>
+    <text x="94" y="244" fill="#c9d1d9" font-size="15">PROMPT</text>
+  </g>
+
+  <g>
+    <rect x="228" y="214" width="122" height="48" rx="9" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+    <circle cx="248" cy="238" r="5" fill="#58a6ff"/>
+    <text x="264" y="244" fill="#c9d1d9" font-size="15">MODEL</text>
+  </g>
+
+  <g>
+    <rect x="398" y="214" width="122" height="48" rx="9" fill="#0d1117" stroke="#7ee787" stroke-width="2"/>
+    <circle cx="418" cy="238" r="5" fill="#7ee787"/>
+    <text x="434" y="244" fill="#c9d1d9" font-size="15">AGENT</text>
+  </g>
+
+  <g>
+    <rect x="568" y="214" width="122" height="48" rx="9" fill="#0d1117" stroke="#7ee787" stroke-width="2"/>
+    <circle cx="588" cy="238" r="5" fill="#7ee787"/>
+    <text x="604" y="244" fill="#c9d1d9" font-size="15">TOOLS</text>
+  </g>
+
+  <g>
+    <rect x="738" y="214" width="147" height="48" rx="9" fill="#0d1117" stroke="#a371f7" stroke-width="2"/>
+    <circle cx="758" cy="238" r="5" fill="#a371f7"/>
+    <text x="774" y="244" fill="#c9d1d9" font-size="15">EVALUATE</text>
+  </g>
+</g>
+
+<!-- annotations -->
+<g fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
+  <text x="66" y="282">input surface</text>
+  <text x="236" y="282">inference</text>
+  <text x="406" y="282">reason + act</text>
+  <text x="576" y="282">external state</text>
+  <text x="746" y="282">trace + measure</text>
+</g>
+
+<!-- right status panel -->
+<rect x="930" y="101" width="206" height="190" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="950" y="127" fill="#7ee787" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">RESEARCH MODE</text>
+
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">
+  <text x="950" y="158" fill="#8b949e">focus</text>
+  <text x="1015" y="158" fill="#c9d1d9">LLM systems</text>
+
+  <text x="950" y="186" fill="#8b949e">threat</text>
+  <text x="1015" y="186" fill="#c9d1d9">adversarial</text>
+
+  <text x="950" y="214" fill="#8b949e">target</text>
+  <text x="1015" y="214" fill="#c9d1d9">reliability</text>
+
+  <text x="950" y="242" fill="#8b949e">output</text>
+  <text x="1015" y="242" fill="#c9d1d9">evidence</text>
+</g>
+
+<rect x="950" y="260" width="166" height="6" rx="3" fill="#21262d"/>
+<rect x="950" y="260" width="124" height="6" rx="3" fill="url(#edge)"/>
+
+<!-- footer -->
+<line x1="58" y1="318" x2="1136" y2="318" stroke="#21262d"/>
+<text x="58" y="346" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
+  build > attack > observe > measure > harden
+</text>
+<text x="1136" y="346" text-anchor="end" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">
+  LLM SYSTEMS / AI SECURITY / AGENTIC SYSTEMS
+</text>
+</svg>
