@@ -26,7 +26,7 @@
   <text x="42" y="164" fill="#8b949e" font-size="13">LANGUAGE</text>
   <text x="190" y="164" fill="#c9d1d9" font-size="15">Python</text>
   <text x="42" y="194" fill="#8b949e" font-size="13">RELEASE</text>
-  <text x="190" y="194" fill="#7ee787" font-size="15">v0.5.1</text>
+  <text x="190" y="194" fill="#7ee787" font-size="15">v0.6.0</text>
   <text x="42" y="224" fill="#8b949e" font-size="13">SIGNALS</text>
   <text x="190" y="224" fill="#c9d1d9" font-size="15">local-llm / ollama / benchmarking</text>
   <text x="665" y="104" fill="#8b949e" font-size="13">RESEARCH TRACK</text>
